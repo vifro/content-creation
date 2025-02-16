@@ -1,0 +1,30 @@
+# Roman History Series Prompt Schema
+series_style:
+  title: "Empires Attraction: Ancient Rome Series"
+  art_style: "classical painting with dramatic, cinematic flair"
+  color_palette: "warm earthy tones, golden sunlight, rich browns and reds"
+  mood: "epic, grand, historically majestic"
+  negative_prompt: "watermark, text, disfigured faces, modern clothing, extra limbs, deformed hands, low quality"
+
+characters:
+  # Provide short references that we can reuse in scenes
+  # E.g., we mention Romulus and Remus. The descriptions help keep them consistent.
+  - name: "Romulus"
+    description: "a strong, determined young man with a proud stance, wearing simple shepherd's attire"
+  - name: "Remus"
+    description: "similar to Romulus but slightly less imposing, also in shepherd's attire"
+
+locations:
+  - name: "Palatine Hill"
+    description: "a gently sloping hill with sparse trees, overlooking the Tiber River"
+  - name: "Aventine Hill"
+    description: "another green hill across from the Palatine, with modest vegetation"
+
+# Example local "scene" overrides. For instance, if you're generating
+# a specific storyline step, you can add additional details like "stormy weather" or "festive crowd."
+scene_overrides:
+  # For example:
+  - key: "Stormy"
+    details: "ominous dark clouds, dramatic sky"
+  - key: "Ceremony"
+    details: "festive gathering of people, ornate Roman costumes"
